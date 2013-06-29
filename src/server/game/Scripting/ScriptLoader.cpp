@@ -1297,9 +1297,9 @@ void AddBattlegroundScripts()
 /* This is where custom scripts' loading functions should be declared. */
 void Add_SC_Custom_Rates();
 void AddSC_CPWS_Transmogrification();
-void AddSC_player_abuse();
 void AddSC_custom_warnings();
 void AddSC_BuffHealNPC();
+void AddSC_player_abuse();
 #endif
 
 void AddCustomScripts()
@@ -1308,8 +1308,8 @@ void AddCustomScripts()
     /* This is where custom scripts should be added. */
     Add_SC_Custom_Rates();
     AddSC_CPWS_Transmogrification();
-	AddSC_player_abuse();
     AddSC_custom_warnings();
     AddSC_BuffHealNPC();
+	AddSC_player_abuse();
 #endif
 }
