@@ -15,6 +15,8 @@ set(scripts_STAT_SRCS
 	Custom/Transmogrifier.cpp
 	Custom/custom_rates.cpp
 	Custom/player_abuse.cpp
+	Custom/custom_warnings.cpp
+	Custom/BuffHealNPC.cpp
 )
 
 message("  -> Prepared: Custom")

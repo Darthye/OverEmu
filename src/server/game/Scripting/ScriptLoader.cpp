@@ -1298,6 +1298,8 @@ void AddBattlegroundScripts()
 void Add_SC_Custom_Rates();
 void AddSC_CPWS_Transmogrification();
 void AddSC_player_abuse();
+void AddSC_custom_warnings();
+void AddSC_BuffHealNPC();
 #endif
 
 void AddCustomScripts()
@@ -1307,5 +1309,7 @@ void AddCustomScripts()
     Add_SC_Custom_Rates();
     AddSC_CPWS_Transmogrification();
 	AddSC_player_abuse();
+    AddSC_custom_warnings();
+    AddSC_BuffHealNPC();
 #endif
 }
